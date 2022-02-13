@@ -215,7 +215,7 @@ public class BootstrapTransformer implements AgentBuilder.Transformer {
      * @param adviceClsName 增强Adviser全限定名
      * @return 增强Adviser的字节码
      */
-    @SuppressWarnings("checkstyle:RegexpSinglelineJava")
+
     private byte[] createAdviceClass(Class<?> templateCls, String adviceClsName) {
         return new ByteBuddy().redefine(templateCls)
                 .name(adviceClsName)

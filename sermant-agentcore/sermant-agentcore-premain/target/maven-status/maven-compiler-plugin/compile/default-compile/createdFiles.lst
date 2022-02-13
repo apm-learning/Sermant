@@ -1,7 +1,0 @@
-com\huawei\sermant\premain\AgentPremain.class
-com\huawei\sermant\premain\exception\DupPremainException.class
-com\huawei\sermant\premain\AgentPremain$1.class
-com\huawei\sermant\premain\AgentPremain$2.class
-com\huawei\sermant\premain\common\BootArgsBuilder.class
-com\huawei\sermant\premain\common\PathDeclarer.class
-com\huawei\sermant\premain\exception\InitPremainException.class

@@ -40,7 +40,7 @@ import java.util.logging.Logger;
  * @version 1.0.0
  * @since 2021/10/27
  */
-@SuppressWarnings("checkstyle:HideUtilityClassConstructor")
+
 
 
 public class BootstrapInstTemplate {
@@ -170,7 +170,7 @@ public class BootstrapInstTemplate {
      * @param arguments 所有参数
      * @return 修正的参数列表
      */
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private static Object[] beforeOriginIntercept(Object obj, Method method, Object[] arguments) {
         if (ORIGIN_INTERCEPTOR == null) {
             return arguments;
@@ -198,7 +198,7 @@ public class BootstrapInstTemplate {
      * @param instInterceptorItr 实例拦截器的双向迭代器
      * @return 是否进行主要流程
      */
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private static boolean beforeInstIntercept(Object obj, Method method, Object[] arguments,
             ListIterator<InstanceMethodInterceptor> instInterceptorItr) {
         final BeforeResult beforeResult = new BeforeResult();
@@ -247,7 +247,7 @@ public class BootstrapInstTemplate {
      * @param result    调用结果
      * @param throwable 抛出异常
      */
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private static void afterOriginIntercept(Object obj, Method method, Object[] arguments, Object result,
             Throwable throwable) {
         if (ORIGIN_INTERCEPTOR == null) {

@@ -63,7 +63,7 @@ public class MethodInterceptorCollector {
      *
      * @param listener luban的监听器
      */
-    @SuppressWarnings("checkstyle:JavadocMethod")
+
     protected boolean setOriginInterceptor(Listener listener) {
         if (originInterceptorName != null) {
             return false;

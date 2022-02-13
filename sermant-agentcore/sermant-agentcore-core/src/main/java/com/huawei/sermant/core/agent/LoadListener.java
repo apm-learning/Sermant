@@ -46,7 +46,6 @@ class LoadListener implements AgentBuilder.Listener {
     public void onDiscovery(String typeName, ClassLoader classLoader, JavaModule module, boolean loaded) {
     }
 
-    @SuppressWarnings("checkstyle:RegexpSinglelineJava")
     @Override
     public void onTransformation(
             final TypeDescription typeDescription,

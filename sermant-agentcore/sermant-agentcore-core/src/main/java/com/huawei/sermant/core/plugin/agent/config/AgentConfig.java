@@ -60,7 +60,7 @@ public class AgentConfig implements BaseConfig {
         return isEnhanceBootStrapEnable;
     }
 
-    @SuppressWarnings("checkstyle:RegexpSingleline")
+
     public void setEnhanceBootStrapEnable(boolean enhanceBootStrapEnable) {
         isEnhanceBootStrapEnable = enhanceBootStrapEnable;
     }
@@ -77,7 +77,7 @@ public class AgentConfig implements BaseConfig {
         return isShowEnhanceLogEnable;
     }
 
-    @SuppressWarnings("checkstyle:RegexpSingleline")
+
     public void setShowEnhanceLogEnable(boolean showEnhanceLogEnable) {
         isShowEnhanceLogEnable = showEnhanceLogEnable;
     }

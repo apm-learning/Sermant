@@ -212,7 +212,6 @@ public class BufferedAgentBuilder {
             @Override
             public AgentBuilder process(AgentBuilder builder) {
                 return builder.with(new AgentBuilder.Listener.Adapter() {
-                    @SuppressWarnings("checkstyle:RegexpSingleline")
                     @Override
                     public void onTransformation(TypeDescription typeDescription, ClassLoader classLoader,
                             JavaModule module, boolean loaded, DynamicType dynamicType) {

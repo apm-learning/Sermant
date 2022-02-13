@@ -41,7 +41,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * @since 2021
  */
-@SuppressWarnings("checkstyle:HideUtilityClassConstructor")
+
 
 
 public class InterceptorLoader {
@@ -90,7 +90,7 @@ public class InterceptorLoader {
         }
     }
 
-    @SuppressWarnings("checkstyle:RegexpMultiline")
+
     public static <T extends Interceptor> T getInterceptor(final String interceptor,
             ClassLoader classLoader,
             final Class<T> interceptorType) {

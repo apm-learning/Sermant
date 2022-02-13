@@ -1,4 +1,0 @@
-com\lubanops\apm\plugin\threadlocal\ThreadPoolInterceptor.class
-com\lubanops\apm\plugin\threadlocal\ScheduledThreadPoolEnhance.class
-com\lubanops\apm\plugin\threadlocal\ThreadPoolEnhance.class
-com\lubanops\apm\plugin\common\Constant.class

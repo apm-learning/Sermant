@@ -34,14 +34,14 @@ import java.util.logging.Logger;
 
 public class InterceptorChain {
 
-    @SuppressWarnings("checkstyle:ModifierOrder")
+
     private final static Logger LOGGER = LoggerFactory.getLogger();
 
     private static final int NOT_IN_CHAIN = Integer.MAX_VALUE;
 
     private final Map<String, Integer> priorities = new HashMap<String, Integer>();
 
-    @SuppressWarnings("checkstyle:RegexpSinglelineJava")
+
     public InterceptorChain(String[] interceptors) {
         int index = 1;
         for (String interceptor : interceptors) {

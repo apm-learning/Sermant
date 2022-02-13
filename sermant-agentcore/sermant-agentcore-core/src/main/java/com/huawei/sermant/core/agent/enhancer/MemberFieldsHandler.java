@@ -34,7 +34,7 @@ import java.util.logging.Logger;
 
 
 public class MemberFieldsHandler {
-    @SuppressWarnings("checkstyle:ModifierOrder")
+
     private final static Logger LOGGER = LoggerFactory.getLogger();
 
     private final List<String> fields;
@@ -43,7 +43,7 @@ public class MemberFieldsHandler {
         this.fields = fields;
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     @RuntimeType
     public Object intercept(@This Object obj) {
         if (fields == null || fields.isEmpty()) {

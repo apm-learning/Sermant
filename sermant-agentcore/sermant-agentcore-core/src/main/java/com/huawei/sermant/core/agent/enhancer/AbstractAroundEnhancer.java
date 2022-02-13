@@ -99,7 +99,7 @@ public abstract class AbstractAroundEnhancer extends OriginEnhancer {
      * @param context 增强上下文实例
      * @return 前置结果
      */
-    @SuppressWarnings("checkstyle:RedundantModifier")
+
     protected abstract BeforeResult doBefore(final EnhanceContext context) throws Throwable;
 
     /**
@@ -108,7 +108,7 @@ public abstract class AbstractAroundEnhancer extends OriginEnhancer {
      * @param context 增强上下文实例
      * @param t       原方法异常
      */
-    @SuppressWarnings("checkstyle:RedundantModifier")
+
     protected abstract void doOnThrow(final EnhanceContext context, final Throwable t);
 
     /**
@@ -118,7 +118,7 @@ public abstract class AbstractAroundEnhancer extends OriginEnhancer {
      * @param result  原方法返回值或前置方法执行结果
      * @return 最终返回结果
      */
-    @SuppressWarnings("checkstyle:RedundantModifier")
+
     protected abstract Object doAfter(final EnhanceContext context, final Object result);
 
     /**

@@ -63,7 +63,7 @@ public class BootstrapTransformer implements AgentBuilder.Transformer {
      */
     private static final Logger LOGGER = LoggerFactory.getLogger();
 
-    @SuppressWarnings("checkstyle:ParameterAssignment")
+
     @Override
     public DynamicType.Builder<?> transform(DynamicType.Builder<?> builder, TypeDescription typeDescription,
             ClassLoader classLoader, JavaModule module) {
@@ -87,7 +87,7 @@ public class BootstrapTransformer implements AgentBuilder.Transformer {
      * @param classLoader     用于增强的类加载器
      * @return 动态构建器
      */
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private DynamicType.Builder<?> enhanceMethods(Listener listener, List<EnhanceDefinition> definitions,
             DynamicType.Builder<?> builder, TypeDescription typeDescription, ClassLoader classLoader) {
         DynamicType.Builder<?> newBuilder = builder;
@@ -157,7 +157,7 @@ public class BootstrapTransformer implements AgentBuilder.Transformer {
          * @return 动态构造器
          * @throws Exception 增强失败
          */
-        @SuppressWarnings("checkstyle:OperatorWrap")
+
         private DynamicType.Builder<?> doResolve(DynamicType.Builder<?> builder, Class<?> templateCls,
                 Class<? extends Interceptor> interceptorType) throws Exception {
             final String adviceClsName = getAdviceClassName(templateCls, method);
@@ -203,7 +203,7 @@ public class BootstrapTransformer implements AgentBuilder.Transformer {
          * @param adviceClsName 动态Advice增强器的名称
          * @return 动态Advice增强器的字节码
          */
-        @SuppressWarnings("checkstyle:RegexpSinglelineJava")
+
         private byte[] createAdviceClass(Class<?> templateCls, String adviceClsName) {
             return new ByteBuddy()
                     .redefine(templateCls)

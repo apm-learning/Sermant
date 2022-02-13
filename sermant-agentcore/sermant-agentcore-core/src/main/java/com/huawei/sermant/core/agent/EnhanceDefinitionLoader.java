@@ -56,7 +56,6 @@ import java.util.Set;
 
 
 public enum EnhanceDefinitionLoader {
-    @SuppressWarnings({"checkstyle:JavadocVariable", "checkstyle:AnnotationLocation"})
     INSTANCE;
 
     private final Map<String, LinkedList<EnhanceDefinition>> nameDefinitions =
@@ -77,7 +76,6 @@ public enum EnhanceDefinitionLoader {
         return INSTANCE;
     }
 
-    @SuppressWarnings("checkstyle:RegexpMultiline")
     public void load() {
         // 加载插件
         for (EnhanceDefinition definition : loadEnhanceDefinition()) {

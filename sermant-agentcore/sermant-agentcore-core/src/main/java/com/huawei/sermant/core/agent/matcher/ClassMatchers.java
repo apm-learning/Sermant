@@ -28,7 +28,7 @@ package com.huawei.sermant.core.agent.matcher;
  *
  * @since 2021
  */
-@SuppressWarnings("checkstyle:HideUtilityClassConstructor")
+
 
 public class ClassMatchers {
 

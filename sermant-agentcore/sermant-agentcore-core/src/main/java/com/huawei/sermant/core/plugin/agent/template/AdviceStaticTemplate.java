@@ -80,7 +80,7 @@ public class AdviceStaticTemplate {
      * @param interceptorItr  拦截器迭代器
      * @param context         执行上下文
      */
-    @SuppressWarnings("checkstyle:ParameterAssignment")
+
     @Advice.OnMethodExit(suppress = Throwable.class, onThrowable = Throwable.class)
     public static void onMethodExit(
             @Advice.Return(readOnly = false, typing = Assigner.Typing.DYNAMIC) Object result,

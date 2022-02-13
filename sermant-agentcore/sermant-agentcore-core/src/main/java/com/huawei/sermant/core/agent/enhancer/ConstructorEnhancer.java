@@ -45,7 +45,7 @@ import java.util.logging.Logger;
 
 public final class ConstructorEnhancer extends OriginEnhancer {
 
-    @SuppressWarnings("checkstyle:ModifierOrder")
+
     private final static Logger LOGGER = LoggerFactory.getLogger();
 
     private final List<ConstructorInterceptor> interceptors;
@@ -61,7 +61,7 @@ public final class ConstructorEnhancer extends OriginEnhancer {
      * @param obj       增强实例
      * @param arguments 原构造方法参数
      */
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     @RuntimeType
     public void intercept(@This Object obj, @AllArguments Object[] arguments) {
         onFinally(obj, arguments, null, null);

@@ -40,7 +40,7 @@ import java.util.logging.Logger;
  * @version 1.0.0
  * @since 2021/10/27
  */
-@SuppressWarnings("checkstyle:HideUtilityClassConstructor")
+
 
 
 public class BootstrapStaticTemplate {
@@ -171,7 +171,7 @@ public class BootstrapStaticTemplate {
      * @param arguments 所有参数
      * @return 修正的参数列表
      */
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private static Object[] beforeOriginIntercept(Class<?> cls, Method method, Object[] arguments) {
         if (ORIGIN_INTERCEPTOR == null) {
             return arguments;
@@ -198,7 +198,7 @@ public class BootstrapStaticTemplate {
      * @param staticInterceptorItr 静态插件的双向迭代器
      * @return 是否进行主要流程
      */
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private static boolean beforeStaticIntercept(Class<?> cls, Method method, Object[] arguments,
             ListIterator<StaticMethodInterceptor> staticInterceptorItr) {
         final BeforeResult beforeResult = new BeforeResult();

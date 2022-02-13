@@ -49,7 +49,7 @@ public abstract class OriginEnhancer {
         this.interceptor = interceptor;
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     protected Object[] onStart(Object obj, Object[] allArguments, Method method) {
         if (interceptor == null) {
             return allArguments;
@@ -85,7 +85,7 @@ public abstract class OriginEnhancer {
         }
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     protected void onError(Object obj, Object[] allArguments, Method method, Throwable throwable) {
         if (interceptor == null) {
             return;

@@ -92,7 +92,7 @@ public class ExecuteContext {
      */
     private Map<String, Field> rawFields;
 
-    @SuppressWarnings("checkstyle:ParameterNumber")
+
     private ExecuteContext(Object object, Class<?> rawCls, Constructor<?> constructor, Method method,
             Object[] arguments, Map<String, Object> extStaticFields, Map<String, Object> extMemberFields) {
         this.object = object;

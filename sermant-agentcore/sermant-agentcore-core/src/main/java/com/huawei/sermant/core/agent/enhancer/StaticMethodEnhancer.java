@@ -50,7 +50,7 @@ import java.util.logging.Logger;
 
 public final class StaticMethodEnhancer extends AbstractAroundEnhancer {
 
-    @SuppressWarnings("checkstyle:ModifierOrder")
+
     private final static Logger LOGGER = LoggerFactory.getLogger();
 
     private final List<StaticMethodInterceptor> interceptors;
@@ -109,7 +109,7 @@ public final class StaticMethodEnhancer extends AbstractAroundEnhancer {
         return returnResult;
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private void execBefore(final StaticMethodInterceptor interceptor,
             final EnhanceContext context,
             final BeforeResult beforeResult) {
@@ -124,7 +124,7 @@ public final class StaticMethodEnhancer extends AbstractAroundEnhancer {
         }
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private void execOnThrow(final StaticMethodInterceptor interceptor,
             final EnhanceContext context,
             final Throwable originThrowable) {
@@ -140,7 +140,7 @@ public final class StaticMethodEnhancer extends AbstractAroundEnhancer {
         }
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private Object execAfter(final StaticMethodInterceptor interceptor,
             final EnhanceContext context,
             final Object result) {

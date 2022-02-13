@@ -88,7 +88,7 @@ public class BootstrapConstTemplate {
      * @param context        执行上下文
      * @throws Exception 执行异常
      */
-    @SuppressWarnings("checkstyle:ParameterAssignment")
+
     @Advice.OnMethodExit(suppress = Throwable.class)
     public static void onMethodExit(
             @Advice.This(typing = Assigner.Typing.DYNAMIC) Object obj,

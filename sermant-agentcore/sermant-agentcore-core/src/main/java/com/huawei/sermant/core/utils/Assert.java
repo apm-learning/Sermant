@@ -25,8 +25,6 @@ import java.util.Collection;
  *
  * @since 2021
  */
-@SuppressWarnings("checkstyle:HideUtilityClassConstructor")
-
 
 public class Assert {
 

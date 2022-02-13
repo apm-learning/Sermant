@@ -51,7 +51,7 @@ import java.util.logging.Logger;
 
 public final class InstanceMethodEnhancer extends AbstractAroundEnhancer {
 
-    @SuppressWarnings("checkstyle:ModifierOrder")
+
     private final static Logger LOGGER = LoggerFactory.getLogger();
 
     private final List<InstanceMethodInterceptor> interceptors;
@@ -111,7 +111,7 @@ public final class InstanceMethodEnhancer extends AbstractAroundEnhancer {
         return returnResult;
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private void execBefore(final InstanceMethodInterceptor interceptor,
             final EnhanceContext context,
             final BeforeResult beforeResult) {
@@ -126,7 +126,7 @@ public final class InstanceMethodEnhancer extends AbstractAroundEnhancer {
         }
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private void execOnThrow(final InstanceMethodInterceptor interceptor,
             final EnhanceContext context,
             final Throwable originThrowable) {
@@ -142,7 +142,7 @@ public final class InstanceMethodEnhancer extends AbstractAroundEnhancer {
         }
     }
 
-    @SuppressWarnings("checkstyle:IllegalCatch")
+
     private Object execAfter(final InstanceMethodInterceptor interceptor,
             final EnhanceContext context,
             final Object result) {

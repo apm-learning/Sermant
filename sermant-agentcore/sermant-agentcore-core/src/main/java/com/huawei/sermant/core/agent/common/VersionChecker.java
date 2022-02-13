@@ -46,7 +46,7 @@ public class VersionChecker {
         this.listener = listener;
     }
 
-    @SuppressWarnings("checkstyle:RegexpSinglelineJava")
+
     public boolean check() {
 //        ConditionOnVersion conditionOnVersion = listener.getClass().getAnnotation(ConditionOnVersion.class);
 //        if (null == conditionOnVersion) {

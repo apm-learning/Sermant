@@ -41,7 +41,7 @@ public class InterceptorChainManager {
 
     private static final String INTERCEPTORS_SEPARATOR = ",";
 
-    @SuppressWarnings("checkstyle:ConstantName")
+
     private static final Map<String, String> aliaAndNameMap = new HashMap<String, String>();
 
     private final Map<String, InterceptorChain> interceptorChains = new HashMap<String, InterceptorChain>();

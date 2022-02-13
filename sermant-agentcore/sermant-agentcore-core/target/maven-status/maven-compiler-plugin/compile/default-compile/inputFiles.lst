@@ -9,7 +9,6 @@ D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\jav
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\config\PluginConfig.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\agent\template\AdviceMemberTemplate.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\common\PluginSchemaValidator.java
-D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\target\generated-sources\protobuf\java\com\huawei\sermant\core\lubanops\integration\transport\netty\pojo\Message.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\agent\interceptor\InterceptorChain.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\utils\JarFileUtils.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\common\LoggerFactory.java
@@ -77,11 +76,9 @@ D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\jav
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\agent\interceptor\InterceptorLoader.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\agent\collector\DeprecatedPluginCollector.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\agent\annotations\BeanPropertyFlag.java
-D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\agent\ByteBuddyAgentBuilder.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\agent\template\AdviceConstTemplate.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\utils\ClassLoaderUtils.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\agent\matcher\ClassMatcher.java
-D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\agent\IgnoreClassMatcher.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\common\BootArgsIndexer.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\agent\declarer\PluginDescription.java
 D:\projects\github\Sermant\sermant-agentcore\sermant-agentcore-core\src\main\java\com\huawei\sermant\core\plugin\agent\template\AdviceStaticTemplate.java
