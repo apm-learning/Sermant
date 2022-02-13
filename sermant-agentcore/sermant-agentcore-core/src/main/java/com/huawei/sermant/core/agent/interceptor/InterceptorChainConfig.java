@@ -17,8 +17,8 @@
 package com.huawei.sermant.core.agent.interceptor;
 
 
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.BaseConfig;
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.ConfigTypeKey;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.common.BaseConfig;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.common.ConfigTypeKey;
 
 /**
  * <p> Copyright 2021

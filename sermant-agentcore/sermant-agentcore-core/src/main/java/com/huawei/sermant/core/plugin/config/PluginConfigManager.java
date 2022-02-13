@@ -17,8 +17,8 @@
 package com.huawei.sermant.core.plugin.config;
 
 import com.huawei.sermant.core.agent.interceptor.InterceptorChainManager;
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.BaseConfig;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.ConfigManager;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.common.BaseConfig;
 
 import java.io.File;
 

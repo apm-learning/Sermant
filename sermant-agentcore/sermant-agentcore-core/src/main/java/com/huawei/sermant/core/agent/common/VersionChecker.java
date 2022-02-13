@@ -18,9 +18,9 @@ package com.huawei.sermant.core.agent.common;
 
 
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.lubanops.bootstrap.Listener;
+import com.huawei.sermant.core.agent.bootstrap.Listener;
 
-import com.huawei.sermant.core.lubanops.bootstrap.utils.StringUtils;
+import com.huawei.sermant.core.agent.bootstrap.utils.StringUtils;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

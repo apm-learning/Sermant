@@ -17,8 +17,8 @@
 package com.huawei.sermant.core.agent.interceptor;
 
 
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
-import com.huawei.sermant.core.lubanops.bootstrap.utils.StringUtils;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.ConfigManager;
+import com.huawei.sermant.core.agent.bootstrap.utils.StringUtils;
 import com.huawei.sermant.core.plugin.config.AliaConfig;
 
 import java.util.HashMap;

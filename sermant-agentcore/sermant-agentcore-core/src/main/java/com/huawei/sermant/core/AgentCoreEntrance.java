@@ -18,7 +18,7 @@ package com.huawei.sermant.core;
 
 import com.huawei.sermant.core.common.BootArgsIndexer;
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.plugin.PluginSystemEntrance;
 import com.huawei.sermant.core.service.ServiceManager;
 

@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.plugin.classloader;
 
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.plugin.agent.config.AgentConfig;
 
 import java.net.URL;

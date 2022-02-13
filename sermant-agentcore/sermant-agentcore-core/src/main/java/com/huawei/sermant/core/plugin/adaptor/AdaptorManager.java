@@ -18,7 +18,7 @@ package com.huawei.sermant.core.plugin.adaptor;
 
 import com.huawei.sermant.core.common.BootArgsIndexer;
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.exception.SchemaException;
 import com.huawei.sermant.core.plugin.adaptor.collector.AdaptorCollectorManager;
 import com.huawei.sermant.core.plugin.adaptor.common.AdaptorConstants;

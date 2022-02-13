@@ -28,7 +28,7 @@ import com.huawei.sermant.core.agent.common.BeforeResult;
 import com.huawei.sermant.core.agent.common.OverrideArgumentsCall;
 import com.huawei.sermant.core.agent.interceptor.InstanceMethodInterceptor;
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.lubanops.bootstrap.Interceptor;
+import com.huawei.sermant.core.agent.bootstrap.Interceptor;
 
 import net.bytebuddy.implementation.bind.annotation.AllArguments;
 import net.bytebuddy.implementation.bind.annotation.Morph;

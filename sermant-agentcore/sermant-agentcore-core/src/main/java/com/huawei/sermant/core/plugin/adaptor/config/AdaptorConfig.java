@@ -16,8 +16,8 @@
 
 package com.huawei.sermant.core.plugin.adaptor.config;
 
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.BaseConfig;
-import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.ConfigTypeKey;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.common.BaseConfig;
+import com.huawei.sermant.core.agent.bootstrap.utils.config.common.ConfigTypeKey;
 
 /**
  * 适配器配置

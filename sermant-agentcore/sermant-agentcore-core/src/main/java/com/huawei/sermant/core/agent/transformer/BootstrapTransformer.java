@@ -28,7 +28,7 @@ import com.huawei.sermant.core.agent.template.BootstrapConstTemplate;
 import com.huawei.sermant.core.agent.template.BootstrapInstTemplate;
 import com.huawei.sermant.core.agent.template.BootstrapStaticTemplate;
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.lubanops.bootstrap.Listener;
+import com.huawei.sermant.core.agent.bootstrap.Listener;
 
 import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.agent.builder.AgentBuilder;
@@ -165,7 +165,7 @@ public class BootstrapTransformer implements AgentBuilder.Transformer {
             final Class<?> adviceCls = defineAdviceClass(adviceClsName, adviceClsBytes);
             final Interceptor originInterceptor = originInterceptorName == null ? null :
                     InterceptorLoader.getInterceptor(originInterceptorName, classLoader,
-                            com.huawei.sermant.core.lubanops.bootstrap.Interceptor.class);
+                            com.huawei.sermant.core.agent.bootstrap.Interceptor.class);
             final List<? extends Interceptor> interceptors = InterceptorLoader.getInterceptors(
                     interceptorNames, classLoader, interceptorType);
             prepareAdviceClass(adviceCls, originInterceptor, interceptors);

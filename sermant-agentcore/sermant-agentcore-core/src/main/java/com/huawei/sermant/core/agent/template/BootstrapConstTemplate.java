@@ -19,7 +19,7 @@ package com.huawei.sermant.core.agent.template;
 
 import com.huawei.sermant.core.agent.interceptor.ConstructorInterceptor;
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.lubanops.bootstrap.Interceptor;
+import com.huawei.sermant.core.agent.bootstrap.Interceptor;
 
 import net.bytebuddy.asm.Advice;
 import net.bytebuddy.implementation.bytecode.assign.Assigner;

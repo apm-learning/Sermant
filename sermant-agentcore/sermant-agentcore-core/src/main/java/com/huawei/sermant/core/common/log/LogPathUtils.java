@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.common.log;
 
-import com.huawei.sermant.core.lubanops.bootstrap.utils.StringUtils;
+import com.huawei.sermant.core.agent.bootstrap.utils.StringUtils;
 
 import java.io.File;
 

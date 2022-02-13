@@ -19,8 +19,8 @@ package com.huawei.sermant.core.agent.transformer;
 
 import com.huawei.sermant.core.agent.definition.EnhanceDefinition;
 import com.huawei.sermant.core.agent.definition.MethodInterceptPoint;
-import com.huawei.sermant.core.lubanops.bootstrap.Listener;
-import com.huawei.sermant.core.lubanops.bootstrap.TransformerMethod;
+import com.huawei.sermant.core.agent.bootstrap.Listener;
+import com.huawei.sermant.core.agent.bootstrap.TransformerMethod;
 
 import net.bytebuddy.description.method.MethodDescription;
 import net.bytebuddy.description.method.ParameterDescription;

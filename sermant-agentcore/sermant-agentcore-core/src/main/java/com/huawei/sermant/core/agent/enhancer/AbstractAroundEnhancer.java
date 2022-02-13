@@ -29,7 +29,7 @@ package com.huawei.sermant.core.agent.enhancer;
 import com.huawei.sermant.core.agent.common.BeforeResult;
 import com.huawei.sermant.core.agent.common.OverrideArgumentsCall;
 import com.huawei.sermant.core.exception.BizException;
-import com.huawei.sermant.core.lubanops.bootstrap.Interceptor;
+import com.huawei.sermant.core.agent.bootstrap.Interceptor;
 
 import java.lang.reflect.Method;
 

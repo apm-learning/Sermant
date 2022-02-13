@@ -36,10 +36,10 @@ import com.huawei.sermant.core.agent.interceptor.ConstructorInterceptor;
 import com.huawei.sermant.core.agent.interceptor.InstanceMethodInterceptor;
 import com.huawei.sermant.core.agent.interceptor.InterceptorLoader;
 import com.huawei.sermant.core.agent.interceptor.StaticMethodInterceptor;
-import com.huawei.sermant.core.lubanops.bootstrap.AttributeAccess;
-import com.huawei.sermant.core.lubanops.bootstrap.Interceptor;
-import com.huawei.sermant.core.lubanops.bootstrap.Listener;
-import com.huawei.sermant.core.lubanops.bootstrap.TransformAccess;
+import com.huawei.sermant.core.agent.bootstrap.AttributeAccess;
+import com.huawei.sermant.core.agent.bootstrap.Interceptor;
+import com.huawei.sermant.core.agent.bootstrap.Listener;
+import com.huawei.sermant.core.agent.bootstrap.TransformAccess;
 
 import net.bytebuddy.agent.builder.AgentBuilder;
 import net.bytebuddy.description.method.MethodDescription;
