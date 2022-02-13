@@ -26,7 +26,7 @@ package com.huawei.sermant.core.agent;
 import static net.bytebuddy.matcher.ElementMatchers.isInterface;
 import static net.bytebuddy.matcher.ElementMatchers.not;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.agent.common.VersionChecker;
 import com.huawei.sermant.core.agent.definition.EnhanceDefinition;
 import com.huawei.sermant.core.agent.matcher.ClassMatcher;
@@ -53,8 +53,8 @@ import java.util.Set;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 public enum EnhanceDefinitionLoader {
     @SuppressWarnings({"checkstyle:JavadocVariable", "checkstyle:AnnotationLocation"})
     INSTANCE;

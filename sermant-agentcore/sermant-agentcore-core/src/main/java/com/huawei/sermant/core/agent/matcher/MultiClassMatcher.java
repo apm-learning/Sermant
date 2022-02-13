@@ -34,7 +34,7 @@ import java.util.Set;
 /**
  * 多个类匹配
  */
-@Deprecated
+
 public class MultiClassMatcher implements NonNameMatcher {
 
     private final Set<String> classNames;

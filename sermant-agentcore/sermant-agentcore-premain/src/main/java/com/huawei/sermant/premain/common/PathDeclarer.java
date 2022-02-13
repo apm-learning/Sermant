@@ -105,7 +105,7 @@ public class PathDeclarer {
      *
      * @return luban的boot目录
      */
-    @Deprecated
+
     public static String getLubanBootPath() {
         return getCorePath();
     }
@@ -115,7 +115,7 @@ public class PathDeclarer {
      *
      * @return luban插件目录
      */
-    @Deprecated
+
     public static String getLubanPluginsPath() {
         return getPluginPackagePath() + File.separatorChar + "luban";
     }

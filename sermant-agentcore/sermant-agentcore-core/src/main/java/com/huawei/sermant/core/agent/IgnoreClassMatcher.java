@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.agent;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.plugin.classloader.PluginClassLoader;
 
 import net.bytebuddy.agent.builder.AgentBuilder;
@@ -30,8 +30,8 @@ import java.security.ProtectionDomain;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 class IgnoreClassMatcher implements AgentBuilder.RawMatcher {
     @Override
     public boolean matches(TypeDescription typeDescription, ClassLoader classLoader, JavaModule module,

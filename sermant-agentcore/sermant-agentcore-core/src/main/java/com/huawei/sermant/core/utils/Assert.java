@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.utils;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 
 import java.util.Collection;
 
@@ -26,8 +26,8 @@ import java.util.Collection;
  * @since 2021
  */
 @SuppressWarnings("checkstyle:HideUtilityClassConstructor")
-@AboutDelete
-@Deprecated
+
+
 public class Assert {
 
     public static void notEmpty(Collection<?> collection, String msg) {

@@ -22,7 +22,7 @@
 
 package com.huawei.sermant.core.agent.interceptor;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.exception.EnhanceException;
 
 import java.util.ArrayList;
@@ -42,8 +42,8 @@ import java.util.concurrent.ConcurrentHashMap;
  * @since 2021
  */
 @SuppressWarnings("checkstyle:HideUtilityClassConstructor")
-@AboutDelete
-@Deprecated
+
+
 public class InterceptorLoader {
     /**
      * 全局拦截器缓存 key : 组合{@link InterceptorLoader#generateKey(String, ClassLoader)} value : 拦截器

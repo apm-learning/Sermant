@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.agent.interceptor;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.lubanops.bootstrap.utils.StringUtils;
 import com.huawei.sermant.core.plugin.config.AliaConfig;
@@ -33,8 +33,8 @@ import java.util.Set;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 public class InterceptorChainManager {
 
     private static final String MULTI_CHAINS_SEPARATOR = ";";

@@ -31,7 +31,7 @@ import net.bytebuddy.matcher.ElementMatchers;
 /**
  * 类名前缀匹配器
  */
-@Deprecated
+
 public class PrefixMatcher implements NonNameMatcher {
 
     private final String prefix;

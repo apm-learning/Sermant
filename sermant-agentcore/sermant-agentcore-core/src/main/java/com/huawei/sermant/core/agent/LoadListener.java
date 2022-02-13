@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.agent;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.common.LoggerFactory;
 import com.huawei.sermant.core.lubanops.bootstrap.utils.StringUtils;
 
@@ -35,8 +35,8 @@ import java.util.logging.Logger;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 class LoadListener implements AgentBuilder.Listener {
     private static final Logger LOGGER = LoggerFactory.getLogger();
 

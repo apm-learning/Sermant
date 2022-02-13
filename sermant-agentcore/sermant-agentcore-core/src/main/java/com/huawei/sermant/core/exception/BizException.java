@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.exception;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 
 /**
  * 业务异常 抛出异常到调用方，即抛给用户应用
@@ -26,8 +26,8 @@ import com.huawei.sermant.core.agent.annotations.AboutDelete;
  * @author zhouss
  * @since 2021-11-12
  */
-@AboutDelete // 如有需要，可自定义AdviceTemplate，关掉或修改suppress
-@Deprecated
+ // 如有需要，可自定义AdviceTemplate，关掉或修改suppress
+
 public class BizException extends RuntimeException {
 
     public BizException(String msg) {

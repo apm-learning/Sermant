@@ -25,7 +25,7 @@ package com.huawei.sermant.core.agent.common;
 /**
  * 实例和静态方法拦截器前置方法执行结果承载类
  */
-@Deprecated
+
 public class BeforeResult {
 
     private boolean isContinue = true;

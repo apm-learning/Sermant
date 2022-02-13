@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.agent.transformer;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.agent.definition.EnhanceDefinition;
 import com.huawei.sermant.core.agent.definition.MethodInterceptPoint;
 import com.huawei.sermant.core.lubanops.bootstrap.Listener;
@@ -37,8 +37,8 @@ import java.util.Set;
  * @version 1.0.0
  * @since 2021/10/27
  */
-@AboutDelete
-@Deprecated
+
+
 public class MethodInterceptorCollector {
     /**
      * 被增强类的方法

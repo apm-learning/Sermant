@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.agent.interceptor;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.common.LoggerFactory;
 
 import java.util.Arrays;
@@ -30,8 +30,8 @@ import java.util.logging.Logger;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 public class InterceptorChain {
 
     @SuppressWarnings("checkstyle:ModifierOrder")

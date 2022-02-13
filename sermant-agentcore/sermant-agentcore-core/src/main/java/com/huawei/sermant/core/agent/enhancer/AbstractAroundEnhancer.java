@@ -25,7 +25,7 @@
 
 package com.huawei.sermant.core.agent.enhancer;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.agent.common.BeforeResult;
 import com.huawei.sermant.core.agent.common.OverrideArgumentsCall;
 import com.huawei.sermant.core.exception.BizException;
@@ -39,8 +39,8 @@ import java.lang.reflect.Method;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 public abstract class AbstractAroundEnhancer extends OriginEnhancer {
     protected AbstractAroundEnhancer(Interceptor originInterceptor) {
         super(originInterceptor);

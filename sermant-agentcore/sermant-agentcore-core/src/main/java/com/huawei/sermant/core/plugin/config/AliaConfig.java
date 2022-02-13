@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.plugin.config;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 
 import java.util.List;
 
@@ -28,8 +28,8 @@ import java.util.List;
  * @version 1.0.0
  * @since 2021-11-12
  */
-@AboutDelete
-@Deprecated
+
+
 public abstract class AliaConfig implements PluginConfig {
     /**
      * 插件名称

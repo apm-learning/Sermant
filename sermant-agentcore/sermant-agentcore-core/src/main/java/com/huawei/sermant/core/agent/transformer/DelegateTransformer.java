@@ -25,7 +25,7 @@ package com.huawei.sermant.core.agent.transformer;
 import static net.bytebuddy.matcher.ElementMatchers.named;
 
 import com.huawei.sermant.core.agent.EnhanceDefinitionLoader;
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.agent.common.OverrideArgumentsCall;
 import com.huawei.sermant.core.agent.definition.EnhanceDefinition;
 import com.huawei.sermant.core.agent.enhancer.ConstructorEnhancer;
@@ -62,8 +62,8 @@ import java.util.List;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 public class DelegateTransformer implements AgentBuilder.Transformer {
     private static final String ENHANCED_FIELD_NAME = "_$lopsAttribute_enhanced";
 

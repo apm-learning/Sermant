@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.agent.template;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.agent.common.BeforeResult;
 import com.huawei.sermant.core.agent.interceptor.InstanceMethodInterceptor;
 import com.huawei.sermant.core.common.LoggerFactory;
@@ -41,8 +41,8 @@ import java.util.logging.Logger;
  * @since 2021/10/27
  */
 @SuppressWarnings("checkstyle:HideUtilityClassConstructor")
-@AboutDelete
-@Deprecated
+
+
 public class BootstrapInstTemplate {
     /**
      * 日志

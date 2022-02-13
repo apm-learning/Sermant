@@ -22,7 +22,7 @@
 
 package com.huawei.sermant.core.agent;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.agent.transformer.CommonTransformer;
 
 import net.bytebuddy.ByteBuddy;
@@ -36,9 +36,7 @@ import java.lang.instrument.Instrumentation;
  *
  * @since 2021
  */
-@SuppressWarnings("checkstyle:HideUtilityClassConstructor")
-@AboutDelete
-@Deprecated
+
 public class ByteBuddyAgentBuilder {
     public static void initialize(Instrumentation instrumentation) {
         new AgentBuilder.Default(new ByteBuddy())

@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.agent.enhancer;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.common.LoggerFactory;
 
 import net.bytebuddy.implementation.bind.annotation.RuntimeType;
@@ -31,8 +31,8 @@ import java.util.logging.Logger;
 /**
  * 处理成员变量
  */
-@AboutDelete
-@Deprecated
+
+
 public class MemberFieldsHandler {
     @SuppressWarnings("checkstyle:ModifierOrder")
     private final static Logger LOGGER = LoggerFactory.getLogger();

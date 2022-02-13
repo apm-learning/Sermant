@@ -17,7 +17,7 @@
 package com.huawei.sermant.core.agent.transformer;
 
 import com.huawei.sermant.core.agent.EnhanceDefinitionLoader;
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.agent.definition.EnhanceDefinition;
 import com.huawei.sermant.core.agent.interceptor.ConstructorInterceptor;
 import com.huawei.sermant.core.agent.interceptor.InstanceMethodInterceptor;
@@ -55,8 +55,8 @@ import java.util.logging.Logger;
  * @version 1.0.0
  * @since 2021/10/27
  */
-@AboutDelete
-@Deprecated
+
+
 public class BootstrapTransformer implements AgentBuilder.Transformer {
     /**
      * 日志

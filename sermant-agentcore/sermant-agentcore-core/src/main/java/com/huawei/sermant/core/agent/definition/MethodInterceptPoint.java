@@ -30,7 +30,7 @@ import net.bytebuddy.matcher.ElementMatcher;
 /**
  * 方法拦截点
  */
-@Deprecated
+
 public class MethodInterceptPoint {
 
     private final String interceptor;

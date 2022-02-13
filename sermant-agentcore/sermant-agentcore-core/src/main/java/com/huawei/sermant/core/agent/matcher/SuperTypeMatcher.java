@@ -41,7 +41,7 @@ import java.util.Queue;
 /**
  * 父类匹配器
  */
-@Deprecated
+
 public class SuperTypeMatcher implements NonNameMatcher {
 
     private final String[] superTypes;

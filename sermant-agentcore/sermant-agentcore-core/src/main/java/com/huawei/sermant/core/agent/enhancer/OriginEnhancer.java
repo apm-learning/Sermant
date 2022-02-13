@@ -25,7 +25,7 @@
 
 package com.huawei.sermant.core.agent.enhancer;
 
-import com.huawei.sermant.core.agent.annotations.AboutDelete;
+
 import com.huawei.sermant.core.common.LoggerFactory;
 import com.huawei.sermant.core.lubanops.bootstrap.Interceptor;
 
@@ -38,8 +38,8 @@ import java.util.logging.Logger;
  *
  * @since 2021
  */
-@AboutDelete
-@Deprecated
+
+
 public abstract class OriginEnhancer {
     private static final Logger LOGGER = LoggerFactory.getLogger();
 

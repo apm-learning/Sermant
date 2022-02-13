@@ -21,7 +21,7 @@ public class ThreadPoolInterceptor implements InstanceMethodInterceptor {
     private static final Logger LOGGER = LoggerFactory.getLogger();
     @Override
     public void before(Object obj, Method method, Object[] arguments, BeforeResult beforeResult) {
-        LoggerFactory.getLogger().info("进入方法："+method.getName()+"after");
+        LoggerFactory.getLogger().info("进入方法："+method.getName()+"   after");
         for (int i = 0; i < arguments.length; i++) {
             if (arguments[i] instanceof Runnable) {
                 arguments[i] = TtlRunnable.get((Runnable) arguments[i], false, true);
@@ -35,11 +35,12 @@ public class ThreadPoolInterceptor implements InstanceMethodInterceptor {
 
     @Override
     public Object after(Object obj, Method method, Object[] arguments, Object result) {
-        LoggerFactory.getLogger().info("退出方法："+method.getName()+"after");
+        LoggerFactory.getLogger().info("退出方法："+method.getName()+"   after");
         return result;
     }
 
     @Override
     public void onThrow(Object obj, Method method, Object[] arguments, Throwable throwable) {
+        LoggerFactory.getLogger().info("onThrow方法："+method.getName()+"   ");
     }
 }

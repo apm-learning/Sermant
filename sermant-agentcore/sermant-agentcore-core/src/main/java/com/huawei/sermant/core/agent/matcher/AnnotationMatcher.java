@@ -41,7 +41,7 @@ import java.util.Set;
 /**
  * 注解匹配器
  */
-@Deprecated
+
 public class AnnotationMatcher implements NonNameMatcher {
 
     private final String[] annotationNames;

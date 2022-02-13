@@ -48,7 +48,7 @@ import java.util.ServiceLoader;
  * @version 1.0.0
  * @since 2022-01-25
  */
-@Deprecated
+
 public class DeprecatedPluginCollector extends AbstractPluginCollector {
     /**
      * 创建拦截器对象
