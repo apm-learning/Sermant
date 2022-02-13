@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.huawei.sermant.core.lubanops.bootstrap.log.LogFactory;
+import com.huawei.sermant.core.common.log.LogFactory;
 import com.huawei.sermant.core.lubanops.core.common.CountDownLatch2;
 
 public abstract class ServiceThread implements Runnable {

@@ -16,8 +16,8 @@
 
 package com.huawei.sermant.core.service.dynamicconfig.kie.config;
 
-import com.huawei.sermant.core.config.common.BaseConfig;
-import com.huawei.sermant.core.config.common.ConfigTypeKey;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.BaseConfig;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.ConfigTypeKey;
 
 /**
  * KIE配置

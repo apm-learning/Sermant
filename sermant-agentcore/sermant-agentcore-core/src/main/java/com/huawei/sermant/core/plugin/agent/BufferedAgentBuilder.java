@@ -18,7 +18,7 @@ package com.huawei.sermant.core.plugin.agent;
 
 import com.huawei.sermant.core.common.CommonConstant;
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.config.ConfigManager;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.plugin.agent.config.AgentConfig;
 import com.huawei.sermant.core.plugin.agent.declarer.PluginDescription;
 import com.huawei.sermant.core.plugin.classloader.PluginClassLoader;

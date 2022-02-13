@@ -21,7 +21,6 @@ import java.util.List;
 import com.huawei.sermant.core.service.dynamicconfig.common.DynamicConfigListener;
 import com.huawei.sermant.core.service.dynamicconfig.kie.KieDynamicConfigService;
 import com.huawei.sermant.core.service.dynamicconfig.nop.NopDynamicConfigService;
-import com.huawei.sermant.core.service.dynamicconfig.zookeeper.ZooKeeperDynamicConfigService;
 
 /**
  * 动态配置服务包装类，根据静态配置判断应该使用何种实现
@@ -38,16 +37,14 @@ public class BufferedDynamicConfigService extends DynamicConfigService {
 
     public BufferedDynamicConfigService() {
         // 根据统一配置设定的类型，初始化不同的实现
-        switch (CONFIG.getServiceType()) {
-            case ZOOKEEPER:
-                service = new ZooKeeperDynamicConfigService();
-                break;
-            case KIE:
-                service = new KieDynamicConfigService();
-                break;
-            default:
-                service = new NopDynamicConfigService();
-        }
+        service = new NopDynamicConfigService();
+//        switch (CONFIG.getServiceType()) {
+//            case KIE:
+//                service = new KieDynamicConfigService();
+//                break;
+//            default:
+//                service = new NopDynamicConfigService();
+//        }
     }
 
     @Override

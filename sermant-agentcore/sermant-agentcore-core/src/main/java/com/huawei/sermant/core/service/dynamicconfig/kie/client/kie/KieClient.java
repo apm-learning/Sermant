@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.service.dynamicconfig.kie.client.kie;
 
-import com.huawei.sermant.core.config.ConfigManager;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.service.dynamicconfig.kie.client.AbstractClient;
 import com.huawei.sermant.core.service.dynamicconfig.kie.client.ClientUrlManager;
 import com.huawei.sermant.core.service.dynamicconfig.kie.client.http.HttpClient;

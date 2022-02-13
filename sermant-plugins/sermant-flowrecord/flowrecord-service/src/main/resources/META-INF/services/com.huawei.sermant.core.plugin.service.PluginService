@@ -1,4 +1,0 @@
-com.huawei.flowrecord.service.FlowRecordServiceImpl
-com.huawei.flowrecord.service.AliDubboServiceImpl
-com.huawei.flowrecord.service.RestletServiceImpl
-com.huawei.flowrecord.service.HttpServerServiceImpl

@@ -1,0 +1,11 @@
+2022-02-12 23:43:59.872 [ERROR] sermant - ----------------------javaagent start failed----------------------
+2022-02-12 23:44:40.260 [ERROR] sermant - ----------------------javaagent start failed----------------------
+2022-02-12 23:47:04.392 [ERROR] sermant - ----------------------javaagent start failed----------------------
+2022-02-12 23:52:30.470 [ERROR] sermant - ----------------------javaagent start failed----------------------
+2022-02-12 23:52:31.741 [ERROR] sermant - [DemoSimpleService]-start
+2022-02-12 23:52:33.912 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-12 23:52:33.914 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-02-12 23:52:33.915 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-12 23:52:33.995 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-02-12 23:52:34.550 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-02-12 23:53:02.307 [ERROR] sermant - [DemoSimpleService]-stop

@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.plugin.agent.collector;
 
-import com.huawei.sermant.core.config.ConfigManager;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.plugin.agent.config.AgentConfig;
 import com.huawei.sermant.core.plugin.agent.declarer.AbstractPluginDescription;
 import com.huawei.sermant.core.plugin.agent.declarer.InterceptDeclarer;

@@ -30,7 +30,7 @@ import java.util.logging.Level;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.huawei.sermant.core.lubanops.bootstrap.log.LogFactory;
+import com.huawei.sermant.core.common.log.LogFactory;
 
 public class Util {
 

@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.lubanops.bootstrap.utils;
 
-import com.huawei.sermant.core.lubanops.bootstrap.log.LogFactory;
+import com.huawei.sermant.core.common.log.LogFactory;
 
 import java.io.File;
 import java.io.FileInputStream;

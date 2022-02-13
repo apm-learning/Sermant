@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sermant-agentcore-premain" />
+        <module name="databasepeer-parse-service" />
+        <module name="gray-feign-http-9.x-plugin" />
+        <module name="flowreplay" />
+        <module name="demo-plugin" />
+        <module name="route-common" />
+        <module name="sermant-luban-adaptor" />
+        <module name="flowcontrol-service" />
+        <module name="demo" />
+        <module name="mockserver" />
+        <module name="server-monitor-service" />
+        <module name="flowre-console" />
+        <module name="online-stresstest-plugin" />
+        <module name="protocol" />
+        <module name="dubbo-register-service" />
+        <module name="metric-server" />
+        <module name="threadlocal-plugin" />
+        <module name="flowrecord-plugin" />
+        <module name="flowrecord-console" />
+        <module name="register-common" />
+        <module name="flowcontrol-plugin" />
+        <module name="demo-service" />
+        <module name="connection-pool-collect-plugin" />
+        <module name="sermant-agentcore-core" />
+        <module name="spring-cloud-register-plugin" />
+        <module name="dubbo-register-plugin" />
+        <module name="gray-dubbo-2.7.x-service" />
+        <module name="gray-feign-http-9.x-service" />
+        <module name="spring-cloud-register-service" />
+        <module name="gray-dubbo-2.7.x-plugin" />
+        <module name="flowrecprd-service" />
+        <module name="monitor-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="connection-pool-collect-plugin" target="1.6" />
+      <module name="databasepeer-parse-service" target="1.6" />
+      <module name="demo-application" target="7" />
+      <module name="dubbo-register-plugin" target="8" />
+      <module name="dubbo-register-service" target="8" />
+      <module name="flowcontrol-plugin" target="6" />
+      <module name="flowcontrol-server" target="1.8" />
+      <module name="flowcontrol-service" target="1.6" />
+      <module name="flowre-console" target="8" />
+      <module name="flowrecord-console" target="8" />
+      <module name="flowrecord-plugin" target="1.6" />
+      <module name="flowrecord-replay" target="8" />
+      <module name="flowrecprd-service" target="7" />
+      <module name="flowreplay" target="8" />
+      <module name="gray-dubbo-2.7.x-plugin" target="1.6" />
+      <module name="gray-dubbo-2.7.x-service" target="1.6" />
+      <module name="gray-feign-http-9.x-plugin" target="1.6" />
+      <module name="gray-feign-http-9.x-service" target="1.6" />
+      <module name="metric-server" target="8" />
+      <module name="mockserver" target="8" />
+      <module name="monitor-common" target="1.6" />
+      <module name="online-stresstest-plugin" target="8" />
+      <module name="protocol" target="1.6" />
+      <module name="register-common" target="1.6" />
+      <module name="route-common" target="1.6" />
+      <module name="sermant-backend" target="1.8" />
+      <module name="sermant-example" target="1.5" />
+      <module name="sermant-flowcontrol" target="1.5" />
+      <module name="sermant-flowrecord" target="1.5" />
+      <module name="sermant-luban-adaptor" target="1.8" />
+      <module name="sermant-online-stresstest" target="1.5" />
+      <module name="sermant-package" target="1.6" />
+      <module name="sermant-register-center" target="1.5" />
+      <module name="sermant-route" target="1.5" />
+      <module name="sermant-server-monitor" target="1.5" />
+      <module name="server-monitor-service" target="1.6" />
+      <module name="spring-cloud-register-plugin" target="1.6" />
+      <module name="spring-cloud-register-service" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -263,15 +263,7 @@
                 <module>sermant-plugins</module>
             </modules>
         </profile>
-        <profile>
-            <id>backend</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <modules>
-                <module>sermant-backend</module>
-            </modules>
-        </profile>
+
         <profile>
             <id>ext</id>
             <activation>
@@ -281,22 +273,12 @@
                 <module>sermant-plugins</module>
             </modules>
         </profile>
-        <profile>
-            <id>package</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <modules>
-                <module>sermant-package</module>
-            </modules>
-        </profile>
+
         <profile>
             <id>all</id>
             <modules>
                 <module>sermant-agentcore</module>
                 <module>sermant-plugins</module>
-                <module>sermant-backend</module>
-                <module>sermant-package</module>
             </modules>
         </profile>
     </profiles>
@@ -417,55 +399,6 @@
                     <version>${version.plugin.version}</version>
                 </plugin>
                 <!-- execute 'mvn license:aggregate-add-third-party' to collect third party license. -->
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>license-maven-plugin</artifactId>
-                    <version>${license.plugin.version}</version>
-                    <configuration>
-                        <!-- set output directory -->
-                        <outputDirectory>${pom.basedir}/${package.resources.dir}</outputDirectory>
-                        <!-- set output file name -->
-                        <thirdPartyFilename>${license.binary.suffix.file}</thirdPartyFilename>
-                        <!-- exclude this project -->
-                        <excludedGroups>${project.groupId}</excludedGroups>
-                        <!-- exclude provided scope -->
-                        <excludedScopes>provided</excludedScopes>
-                        <!-- use this template to group result by license type -->
-                        <fileTemplate>${pom.basedir}/${package.resources.dir}/${package.license.ftl.file}</fileTemplate>
-                        <!-- merge non canonical aliases -->
-                        <!-- todo 需要进一步合并license -->
-                        <licenseMerges>
-                            <licenseMerge>
-                                Apache License, Version 2.0
-                                |The Apache License, Version 2.0
-                                |The Apache Software License, Version 2.0
-                                |Apache Public License 2.0
-                                |Apache 2
-                                |Apache 2.0
-                                |Apache-2.0
-                                |Apache License 2.0
-                                |Apache License, version 2.0
-                                |Apache License Version 2.0
-                                |Apache v2
-                                |Apache Software Licenses
-                            </licenseMerge>
-                            <licenseMerge>
-                                3-Clause BSD License
-                                |BSD 3-clause
-                                |BSD 3-Clause
-                            </licenseMerge>
-                            <licenseMerge>
-                                Eclipse Public License v1.0
-                                |Eclipse Public License 1.0
-                                |Eclipse Public License - v 1.0
-                            </licenseMerge>
-                            <licenseMerge>
-                                The MIT License
-                                |MIT License
-                            </licenseMerge>
-                        </licenseMerges>
-                    </configuration>
-                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>

@@ -18,7 +18,7 @@ package com.huawei.sermant.core.lubanops.bootstrap.utils;
 
 import java.util.logging.Level;
 
-import com.huawei.sermant.core.lubanops.bootstrap.log.LogFactory;
+import com.huawei.sermant.core.common.log.LogFactory;
 
 public class SqlParserUtil {
 

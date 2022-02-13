@@ -18,8 +18,7 @@ package com.huawei.sermant.core;
 
 import com.huawei.sermant.core.common.BootArgsIndexer;
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.config.ConfigManager;
-import com.huawei.sermant.core.lubanops.core.BootStrapImpl;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.plugin.PluginSystemEntrance;
 import com.huawei.sermant.core.service.ServiceManager;
 
@@ -54,8 +53,7 @@ public class AgentCoreEntrance {
             // 初始化统一配置
             ConfigManager.initialize(argsMap);
 
-            // 调用BootStrapImpl#main，启动luban核心功能
-            BootStrapImpl.main(instrumentation, argsMap);
+
 
             // 启动核心服务
             ServiceManager.initServices();

@@ -16,9 +16,9 @@
 
 package com.huawei.sermant.core.service.dynamicconfig.config;
 
-import com.huawei.sermant.core.config.common.BaseConfig;
-import com.huawei.sermant.core.config.common.ConfigFieldKey;
-import com.huawei.sermant.core.config.common.ConfigTypeKey;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.BaseConfig;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.ConfigFieldKey;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.ConfigTypeKey;
 import com.huawei.sermant.core.service.dynamicconfig.common.DynamicConfigServiceType;
 
 /**

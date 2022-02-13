@@ -20,7 +20,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.regex.Pattern;
 
-import com.huawei.sermant.core.lubanops.bootstrap.log.LogFactory;
+import com.huawei.sermant.core.common.log.LogFactory;
 
 /**
  * 输入字符串校验

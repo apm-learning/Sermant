@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowre-console/flowre-console.iml" filepath="$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowre-console/flowre-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowrecord-console/flowrecord-console.iml" filepath="$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowrecord-console/flowrecord-console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowrecord-replay.iml" filepath="$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowrecord-replay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowreplay/flowreplay.iml" filepath="$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/flowreplay/flowreplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sermant-plugins/sermant-server-monitor/metric-server/metric-server.iml" filepath="$PROJECT_DIR$/sermant-plugins/sermant-server-monitor/metric-server/metric-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/mockserver/mockserver.iml" filepath="$PROJECT_DIR$/sermant-plugins/sermant-flowrecord/flowrecord-replay/mockserver/mockserver.iml" />
+    </modules>
+  </component>
+</project>

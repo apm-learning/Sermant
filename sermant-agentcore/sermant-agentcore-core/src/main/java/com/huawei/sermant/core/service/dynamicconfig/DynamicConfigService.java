@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import com.huawei.sermant.core.common.LoggerFactory;
-import com.huawei.sermant.core.config.ConfigManager;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.ConfigManager;
 import com.huawei.sermant.core.service.BaseService;
 import com.huawei.sermant.core.service.dynamicconfig.api.GroupService;
 import com.huawei.sermant.core.service.dynamicconfig.api.KeyGroupService;

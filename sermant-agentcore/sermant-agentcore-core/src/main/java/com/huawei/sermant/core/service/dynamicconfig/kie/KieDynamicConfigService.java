@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.service.dynamicconfig.kie;
 
-import com.huawei.sermant.core.lubanops.bootstrap.log.LogFactory;
+import com.huawei.sermant.core.common.log.LogFactory;
 import com.huawei.sermant.core.service.dynamicconfig.DynamicConfigService;
 import com.huawei.sermant.core.service.dynamicconfig.common.DynamicConfigListener;
 import com.huawei.sermant.core.service.dynamicconfig.kie.client.kie.KieConfigEntity;

@@ -19,7 +19,7 @@ package com.huawei.sermant.core.agent.common;
 import com.huawei.sermant.core.agent.annotations.AboutDelete;
 import com.huawei.sermant.core.common.LoggerFactory;
 import com.huawei.sermant.core.lubanops.bootstrap.Listener;
-import com.huawei.sermant.core.lubanops.bootstrap.commons.ConditionOnVersion;
+
 import com.huawei.sermant.core.lubanops.bootstrap.utils.StringUtils;
 
 import java.util.logging.Level;
@@ -48,15 +48,15 @@ public class VersionChecker {
 
     @SuppressWarnings("checkstyle:RegexpSinglelineJava")
     public boolean check() {
-        ConditionOnVersion conditionOnVersion = listener.getClass().getAnnotation(ConditionOnVersion.class);
-        if (null == conditionOnVersion) {
-            return true;
-        }
-        for (String definedVersion : conditionOnVersion.versions()) {
-            if (matchVersion(definedVersion, version)) {
-                return true;
-            }
-        }
+//        ConditionOnVersion conditionOnVersion = listener.getClass().getAnnotation(ConditionOnVersion.class);
+//        if (null == conditionOnVersion) {
+//            return true;
+//        }
+//        for (String definedVersion : conditionOnVersion.versions()) {
+//            if (matchVersion(definedVersion, version)) {
+//                return true;
+//            }
+//        }
         LOGGER.log(Level.INFO,
                 String.format("[APM TRANSFORMER]transformer not trigger because version[%s] match miss.", version));
         return false;

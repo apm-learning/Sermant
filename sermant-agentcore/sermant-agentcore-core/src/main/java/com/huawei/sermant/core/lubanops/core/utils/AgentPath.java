@@ -17,7 +17,7 @@
 package com.huawei.sermant.core.lubanops.core.utils;
 
 import com.google.common.base.Preconditions;
-import com.huawei.sermant.core.lubanops.bootstrap.exception.ApmRuntimeException;
+
 import com.huawei.sermant.core.lubanops.bootstrap.utils.StringUtils;
 
 import java.util.Map;
@@ -46,16 +46,16 @@ public class AgentPath {
     }
 
     public static AgentPath getInstance() {
-        if (null == instance) {
-            throw new ApmRuntimeException("[APM BOOTSTRAP]AgentPath has not instantiated.");
-        }
+//        if (null == instance) {
+//            throw new ApmRuntimeException("[APM BOOTSTRAP]AgentPath has not instantiated.");
+//        }
         return instance;
     }
 
     public static AgentPath build(Map argsMap) {
         AgentPath agentPath = new AgentPath();
         agentPath.setAgentPath(argsMap.get(AGENT_PATH_COMMONS).toString());
-        agentPath.setBootPath(argsMap.get(BOOT_PATH_COMMONS).toString());
+//        agentPath.setBootPath(argsMap.get(BOOT_PATH_COMMONS).toString());
         agentPath.setPluginsPath(argsMap.get(PLUGINS_PATH_COMMONS).toString());
         agentPath.checkIntegrity();
         instance = agentPath;

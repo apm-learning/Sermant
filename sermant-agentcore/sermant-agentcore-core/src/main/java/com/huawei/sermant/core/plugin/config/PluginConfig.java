@@ -16,7 +16,7 @@
 
 package com.huawei.sermant.core.plugin.config;
 
-import com.huawei.sermant.core.config.common.BaseConfig;
+import com.huawei.sermant.core.lubanops.bootstrap.utils.config.common.BaseConfig;
 
 /**
  * 插件服务包的统一配置基类

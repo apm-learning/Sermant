@@ -19,7 +19,7 @@ package com.huawei.sermant.core.lubanops.core.executor.timer;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
-import com.huawei.sermant.core.lubanops.bootstrap.log.LogFactory;
+import com.huawei.sermant.core.common.log.LogFactory;
 
 /**
  * Abstract Timer Task.

@@ -43,9 +43,7 @@ public abstract class BootArgsBuilder {
     public static Map<String, Object> build(String agentArgs) {
         final Properties configMap = loadConfig();
         final Map<String, Object> argsMap = toArgsMap(agentArgs);
-        addNotNullEntries(argsMap, configMap);
-        addNormalEntries(argsMap, configMap);
-        addSpeEntries(argsMap, configMap);
+
         addPathEntries(argsMap);
         return argsMap;
     }
@@ -105,77 +103,6 @@ public abstract class BootArgsBuilder {
         return value;
     }
 
-    /**
-     * 添加非空的键值对，涉及的参数均不可为空
-     *
-     * @param argsMap   参数集
-     * @param configMap 配置集
-     */
-    private static void addNotNullEntries(Map<String, Object> argsMap, Properties configMap) {
-        String key = CommonConstant.APP_NAME_KEY;
-        if (!argsMap.containsKey(key)) {
-            final String value = getCommonValue(key, configMap);
-            if (value == null) {
-                throw new IllegalArgumentException(CommonConstant.APP_NAME_KEY + " not found. ");
-            } else {
-                argsMap.put(key, value);
-            }
-        }
-        key = CommonConstant.INSTANCE_NAME_KEY;
-        if (!argsMap.containsKey(key)) {
-            final String value = getCommonValue(key, configMap);
-            argsMap.put(key, value == null ? "default" : value);
-        }
-        key = CommonConstant.APP_TYPE_KEY;
-        if (!argsMap.containsKey(key)) {
-            final String value = getCommonValue(key, configMap);
-            argsMap.put(key, value == null ? 0 : Integer.parseInt(value));
-        }
-    }
-
-    /**
-     * 添加普通键值对，为空时不添加
-     *
-     * @param argsMap   参数集
-     * @param configMap 配置集
-     */
-    private static void addNormalEntries(Map<String, Object> argsMap, Properties configMap) {
-        for (String key : new String[]{
-                CommonConstant.ENV_KEY,
-                CommonConstant.ENV_TAG_KEY,
-                CommonConstant.BIZ_PATH_KEY,
-                CommonConstant.SUB_BUSINESS_KEY,
-                CommonConstant.ENV_SECRET_KEY}) {
-            if (!argsMap.containsKey(key)) {
-                final String value = getCommonValue(key, configMap);
-                if (value != null) {
-                    argsMap.put(key, value);
-                }
-            }
-        }
-    }
-
-    /**
-     * 添加特殊键值对，参数键风格为'.'连接，而不是小驼峰，为空时不添加
-     *
-     * @param argsMap   参数集
-     * @param configMap 配置集
-     */
-    private static void addSpeEntries(Map<String, Object> argsMap, Properties configMap) {
-        for (String key : new String[]{
-                CommonConstant.MASTER_ACCESS_KEY,
-                CommonConstant.MASTER_SECRET_KEY,
-                CommonConstant.MASTER_ADDRESS_KEY}) {
-            final String camelKey = FieldUtils.toCamel(key, '.', false);
-            if (!argsMap.containsKey(camelKey)) {
-                String value = configMap.getProperty(key);
-                value = value == null ? System.getProperty(camelKey) : value;
-                if (value != null) {
-                    argsMap.put(key, value);
-                }
-            }
-        }
-    }
 
     /**
      * 添加路径键值对
@@ -183,9 +110,8 @@ public abstract class BootArgsBuilder {
      * @param argsMap 参数集
      */
     private static void addPathEntries(Map<String, Object> argsMap) {
-        argsMap.put(CommonConstant.AGENT_ROOT_DIR_KEY, PathDeclarer.getAgentPath());
-        argsMap.put(CommonConstant.LUBAN_BOOT_PATH_KEY, PathDeclarer.getLubanBootPath());
-        argsMap.put(CommonConstant.LUBAN_PLUGINS_PATH_KEY, PathDeclarer.getLubanPluginsPath());
+       // argsMap.put(CommonConstant.AGENT_ROOT_DIR_KEY, PathDeclarer.getAgentPath());
+
         argsMap.put(CommonConstant.CORE_CONFIG_FILE_KEY, PathDeclarer.getConfigPath());
         argsMap.put(CommonConstant.PLUGIN_SETTING_FILE_KEY, PathDeclarer.getPluginSettingPath());
         argsMap.put(CommonConstant.PLUGIN_PACKAGE_DIR_KEY, PathDeclarer.getPluginPackagePath());
