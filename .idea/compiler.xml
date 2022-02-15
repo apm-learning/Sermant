@@ -45,6 +45,7 @@
       <module name="connection-pool-collect-plugin" target="1.6" />
       <module name="databasepeer-parse-service" target="1.6" />
       <module name="demo-application" target="7" />
+      <module name="demo-service" target="1.6" />
       <module name="dubbo-register-plugin" target="8" />
       <module name="dubbo-register-service" target="8" />
       <module name="flowcontrol-plugin" target="6" />
